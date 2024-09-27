@@ -1,8 +1,8 @@
-# h
+# Readme Generator 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 ## Description
-h
+Readme generator using node inquirer
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,16 +13,16 @@ h
 - [Questions](#questions)
 
 ## Installation
-h
+npm i 
 
 ## Usage
-hh
+just usage 
 
 ## Contributing
-h
+follow instructions 
 
 ## Tests
-h
+tested already
 
 
 ## License
@@ -31,4 +31,4 @@ This project is licensed under the [MIT](https://opensource.org/licenses/MIT) li
 
 
 ## Questions
-If you have any questions, you can reach me at h or visit my GitHub profile at https://github.com/h.
+If you have any questions, you can reach me at gabrielsalazar255@gmail.com or visit my GitHub profile at https://github.com/gabrielsalazar225.
