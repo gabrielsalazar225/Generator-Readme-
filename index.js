@@ -53,9 +53,10 @@ const questions  = [
   ];
 
   function writeToFile(fileName, data) {
-    fs.writeFile (fileName, data, (err) => 
-    err ? console.error(err) : console.log ('the readme file has been created succesfully!!!' )
-    );
+    fs.writeFile(fileName, data, (err) => {
+      if (err) throw err;
+      console.log('README.md successfully generated in the dist folder!');
+    });
   }
   
   function init() {

@@ -14,7 +14,7 @@ function renderLicenseLink(license) {
       'Apache 2.0' : '[Apache 2.0] (https://opensource.org/license/apache-2-0)',
       'GPL 3.0' : '[GPL 3.0] (https://www.gnu.org/licenses/gpl-3.0)',
       'BSD 3' : '[BSD 3] (https://opensource.org/license/bsd-3-clause)',
-      'None' : 'hole'};
+      'None' : ''};
       return LicenseLinks[license] || '';
 }
 
@@ -25,7 +25,7 @@ function renderLicenseSection(license) {
       'GPL 3.0' : '[GPL 3.0] (https://www.gnu.org/licenses/gpl-3.0)',
       'BSD 3' : '[BSD 3] (https://opensource.org/license/bsd-3-clause)',
       'None' : ''};
-      if (license === 'NONE') {
+      if (license === 'None') {
           return '';
       } 
       const LicenseLink = LicenseLinks[license]; 
