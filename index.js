@@ -1,5 +1,5 @@
 const { error } = require('console');
-const generateMarkdown = require ('./utils/generateMarkDown')
+const generateMarkDown = require ('./utils/generateMarkDown')
 const fs = require('fs')
 const inquirer = require('inquirer')
 
