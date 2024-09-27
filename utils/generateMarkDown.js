@@ -51,3 +51,20 @@ const questions  = [
       message: 'Provide your email address',
     },
   ];
+
+  function writeToFile(fileName, data) {
+    fs.writeFile (fileName, data, (err) => 
+    err ? console.error(err) : console.log ('the readme file has been created succesfully!!!' )
+    );
+  }
+  
+  function init() {
+     inquirer.prompt(questions).then((answers) => {
+      const markdown = generateMarkDown (answers);
+      writeToFile('README.md', markdown);
+     });
+  
+   }
+  
+
+  init();
